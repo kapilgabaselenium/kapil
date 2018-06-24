@@ -17,6 +17,7 @@ public class Class1 {
 	
 	public static void main(String[] args) throws InterruptedException 
 	{
+		System.out.println("line updated");
 	 
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\galaxy\\Desktop\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
